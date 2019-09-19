@@ -1,5 +1,6 @@
 package calculator
 
+// NewCalculator is used to create Calculator.
 func NewCalculator(a float64) Calculator {
 	return defaultCalculator{a: a}
 }
